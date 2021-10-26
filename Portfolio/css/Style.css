@@ -1,0 +1,224 @@
+
+/* Start navbar */
+.header_area .main-menu .navbar .navbar-brand{
+  padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+  padding: 1rem 20rem;
+}
+
+.header_area .main-menu .navbar-nav .nav-item{
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 1.7rem;
+  color: black;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+  background: blue;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/*End Navbar*/
+
+/* main Body*/
+
+.main-site .site-banner .site-title h3{
+  padding-top:30%;
+  font-weight:500;
+}
+.main-site .site-banner .site-title h3::after{
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5px;
+  transform: translateY(-10px);
+}
+.main-site .site-banner .banner-image > img{
+  padding: 2rem 0;
+  width: 90rem;
+}
+.button{
+padding: 0.8rem 3rem;
+font-weight:500;
+position: relative;
+border: 3px solid transparent;
+border-radius: 4px;
+}
+
+.button.primary-button{
+  background-color: rgb(2,0,36);
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: background-color .6s ease;
+  box-shadow:10px 10px 20px grey;
+}
+.button.primary-button:hover{
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: black;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+  position: absolute;
+  top: -2px; left: -2px;
+  bottom: -2px; right: -2px;
+  background-color: rgb(2,0,36);
+  content: "";
+  z-index: -1;
+  border-radius: 4px;
+}
+
+.button.secondary-button{
+  margin-left: 50px;
+  background: whitesmoke;
+  background-clip: padding-box;
+  transition: background-color .6s ease;
+}
+.button.secondary-button:hover{
+    background: rgb(2,0,36);
+    color: whitesmoke;
+    box-shadow:10px 10px 20px grey;
+}
+
+/* Start of About Me */
+.main-site .about-main{
+  padding: 8rem 5rem;
+}
+
+.main-site .about-main .about-title h2 > span{
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 21px;
+}
+.main-site .about-main .about-title .paragraph{
+  padding: 4rem, 0;
+}
+.main-site .about-main .about-title .paragraph .para{
+  padding-top: 2rem;
+  color: dark-grey;
+  font-style: normal;
+  font-weight: 500;
+
+}
+/* Start brand area*/
+.main-site .brand-area{
+  padding: 1rem 20rem;
+  margin-bottom: 4rem;
+}
+
+.main-site .brand-area .first-row .col-lg-4{
+  display: flex;
+  justify-content: center;
+}
+
+.main-site .brand-area .first-row .col-lg-4 > .single-brand{
+  text-align: center;
+
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform .4s ease;
+}
+
+.main-site .brand-area .first-row .col-lg-4 > .single-brand:hover{
+  box-shadow: 10px 10px 20px grey;
+  transform:scale(1.1);
+}
+.main-site .brand-area .first-row .col-lg-4 > .single-brand:hover > img{
+  filter: brightness(1);
+}
+.main-site .brand-area .expereience-area{
+  padding-left: 1rem;
+  }
+
+  .main-site .brand-area .expereience-area span{
+    display: block;
+  }
+  .main-site .brand-area .expereience-area .years-area{
+    padding: 1rem 0;
+    width: 40rem;
+    height: 10rem;
+    padding-left: 10rem;
+    position: relative;
+  }
+  .main-site .brand-area .expereience-area .years-area .years{
+    font-style: normal;
+    font-size: 100px;
+    font-weight: 500;
+    color: blue;
+  }
+  .main-site .brand-area .expereience-area .years-area h2 > span{
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+  }
+.main-site .brand-area .expereience-area .call-area .call-now{
+  padding-left: 16rem;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 0.5rem;
+}
+.main-site .brand-area .expereience-area .call-now > span{
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 0.5rem;
+}
+
+.main-site .services-area{
+  padding: 7rem 2rem;
+  }
+.main-site .services-area .Services-title{
+  padding: 0 14rem;
+}
+.main-site .services-area .Services-title h1{
+  font-size: 40px;
+}
+.main-site > .services-area .services{
+  background: rgba(248, 252, 253, 0.973);
+  padding: 2rem o;
+  width: 15rem;
+  margin: 5rem .5rem;
+  transition: box-shadow .7s ease;
+}
+.main-site > .services-area .services:hover{
+  box-shadow:10px 10px 20px grey;
+}
+
+.main-site .project-area{
+  padding: 7rem 2rem;
+}
+.main-site .project-area .project-title{
+  padding: 0 14rem;
+}
+.main-site .project-area .project-title h1{
+    font-size: 40px;
+}
+
+.main-site .project-area {
+padding: 4rem 0rem;
+}
+.main-site .project-area .project-title{
+  padding: 0 14rem;
+}
+.main-site .project-area .project-title h1{
+  font-size: 40px;
+}
+.main-site .project-area .Construction-work{
+  background: rgba(248, 252, 253, 0.973);
+  align-items: center;
+  width: 15rem;
+  margin: 5rem .5rem;
+  transition: box-shadow .7s ease;
+}
